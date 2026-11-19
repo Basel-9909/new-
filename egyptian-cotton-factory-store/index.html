@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#171717" />
+  <title>Egyptian Cotton Factory | قطن المصريين</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="announcement">قطن مصري، معمول بحب في مصر <span>✦</span> التوصيل لكل المحافظات</div>
+  <header class="site-header">
+    <button class="icon-button mobile-menu" aria-label="القائمة" id="menuButton">☰</button>
+    <a class="brand" href="#home" aria-label="الرئيسية"><img src="assets/logo.jpg" alt="قطن المصريين"/><span><b>EGYPTIAN</b><small>COTTON FACTORY</small></span></a>
+    <nav class="desktop-nav" aria-label="التصنيفات"><a href="#shop">وصل حديثاً</a><a href="#shop">تيشيرتات</a><a href="#shop">ملابس بيت</a><a href="#shop">أطقم أطفال</a></nav>
+    <div class="header-actions"><label class="search"><span>⌕</span><input id="searchInput" placeholder="دور على حاجة بتحبها" aria-label="ابحث عن منتج" /></label><button class="icon-button" id="accountButton" aria-label="اتصل بنا">♙</button><button class="icon-button bag-button" id="cartButton" aria-label="سلة المشتريات">♧<i id="cartCount">0</i></button></div>
+  </header>
+  <main id="app"></main>
+  <footer class="footer"><div class="footer-brand"><img src="assets/logo.jpg" alt=""/><div><b>Egyptian Cotton Factory</b><p>قطن مصري من قلب مصر.</p></div></div><div class="footer-contact"><b>خليك على تواصل</b><a href="tel:01004206146">01004206146</a><a href="tel:01060206478">01060206478</a></div><div class="footer-social"><b>تابعنا</b><a target="_blank" rel="noreferrer" href="https://www.instagram.com/msnqtnalmsryyn?xtok=MXNmYzJqZ3RkMmF4">Instagram ↗</a><a target="_blank" rel="noreferrer" href="https://www.facebook.com/share/1ZyLM88ojf/">Facebook ↗</a></div><small class="copyright">© 2026 Egyptian Cotton Factory</small></footer>
+  <div class="scrim" id="scrim"></div><aside class="cart-drawer" id="cartDrawer" aria-label="سلة المشتريات"><div class="drawer-head"><h2>سلة مشترياتك</h2><button class="close-button" id="closeCart">×</button></div><div id="cartItems" class="cart-items"></div><div class="cart-bottom"><p><span>الإجمالي</span><b id="cartTotal">0 ج.م</b></p><button class="button button-dark" id="checkoutButton">اطلب على واتساب</button><small>سيتم تأكيد تكلفة التوصيل عند الطلب</small></div></aside>
+  <div class="toast" id="toast"></div>
+  <script src="images-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
